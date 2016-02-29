@@ -25,6 +25,7 @@ var length = getBoardLength(5, totalChars(colors))
 // Create an array of the right length with empty strings in each cell
 var board = new Array(length).fill('')
 
+// Get a random empty starting square for a word
 var getRandomSquare = function (board) {
   var len = board.length;
   var square = Math.floor(Math.random() * len)
@@ -35,6 +36,8 @@ var getRandomSquare = function (board) {
 
   return getRandomSquare(board)
 }
+
+// Get direction
 
 console.log(getRandomSquare(['C', '', 'A', '']))
 
