@@ -1,0 +1,23 @@
+{
+  "name": "pearl",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chasm/pearl.git"
+  },
+  "keywords": [],
+  "author": "Charles F. Munat <chas@munat.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chasm/pearl/issues"
+  },
+  "homepage": "https://github.com/chasm/pearl#readme",
+  "dependencies": {
+    "ramda": "^0.19.1"
+  }
+}
